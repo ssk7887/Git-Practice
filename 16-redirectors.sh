@@ -14,8 +14,8 @@ Y="\e[33m"
 
 CHECK_ROOT(){
     if [ $USERID -ne 0 ]
-    echo -e "$R Please run this with root Priveleges $N"
-    exit 1
+        echo -e "$R Please run this with root Priveleges $N"
+        exit 1
     fi
 }
 
